@@ -1,0 +1,47 @@
+.rating-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.rating-input-label {
+  font-size: 0.9rem;
+}
+
+.rating-input-scale {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.rating-input-scale button {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+  background: transparent;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 600;
+  transition: background-color 0.12s ease, border-color 0.12s ease, transform 0.08s ease, box-shadow 0.12s ease;
+}
+
+.rating-input-scale button:hover {
+  border-color: #2563eb;
+  background: rgba(37, 99, 235, 0.08);
+}
+
+.rating-input-scale button:active {
+  transform: scale(0.9);
+}
+
+.rating-input-scale button.filled {
+  background: rgba(37, 99, 235, 0.15);
+  border-color: rgba(37, 99, 235, 0.5);
+}
+
+.rating-input-scale button.selected {
+  background: #2563eb;
+  color: white;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
+}

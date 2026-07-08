@@ -1,0 +1,25 @@
+.map-view {
+  position: relative;
+  height: calc(100vh - 8rem);
+  min-height: 320px;
+}
+
+.map-view-error {
+  position: absolute;
+  top: 0.75rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  background: #dc2626;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+.map-view .leaflet-container {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+}

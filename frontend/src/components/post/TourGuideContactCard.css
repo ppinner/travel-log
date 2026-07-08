@@ -1,0 +1,24 @@
+.tour-guide-card {
+  background: rgba(37, 99, 235, 0.08);
+  border-radius: 6px;
+  padding: 0.6rem 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.tour-guide-card-title {
+  margin: 0 0 0.25rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #2563eb;
+}
+
+.tour-guide-card p {
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
+}
+
+.tour-guide-card-note {
+  color: #6b7280;
+  font-style: italic;
+}

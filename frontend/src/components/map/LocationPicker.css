@@ -1,0 +1,51 @@
+.location-picker .leaflet-container {
+  height: 240px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.location-picker-hint {
+  margin: 0.35rem 0 0;
+  font-size: 0.85rem;
+  color: #6b7280;
+}
+
+.location-picker-paste {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.location-picker-paste label {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.85rem;
+}
+
+.location-picker-paste input {
+  padding: 0.5rem;
+  font-size: 0.95rem;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+  border-radius: 6px;
+  font-family: inherit;
+}
+
+.location-picker-paste button {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  border: 1px solid #2563eb;
+  background: transparent;
+  color: #2563eb;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.location-picker-error {
+  color: #dc2626;
+  font-size: 0.85rem;
+  margin: 0.35rem 0 0;
+}

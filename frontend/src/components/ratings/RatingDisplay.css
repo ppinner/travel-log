@@ -1,0 +1,21 @@
+.rating-display {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem 1rem;
+  margin: 0;
+}
+
+.rating-display-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+
+.rating-display-item dt {
+  color: #6b7280;
+}
+
+.rating-display-item dd {
+  margin: 0;
+  font-weight: 600;
+}

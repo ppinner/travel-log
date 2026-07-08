@@ -1,0 +1,24 @@
+.saved-place-card {
+  display: block;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 8px;
+  padding: 0.85rem 1rem;
+  margin-bottom: 0.6rem;
+  color: inherit;
+  text-decoration: none;
+}
+
+.saved-place-card h3 {
+  margin: 0 0 0.15rem;
+}
+
+.saved-place-card-meta {
+  margin: 0;
+  color: #6b7280;
+  font-size: 0.85rem;
+}
+
+.saved-place-card-notes {
+  margin: 0.4rem 0 0;
+  font-size: 0.9rem;
+}

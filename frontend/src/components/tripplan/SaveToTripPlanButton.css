@@ -1,0 +1,45 @@
+.trip-plan-status {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.trip-plan-badge {
+  background: rgba(37, 99, 235, 0.15);
+  color: #2563eb;
+  border-radius: 999px;
+  padding: 0.3rem 0.7rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.trip-plan-badge-visited {
+  background: rgba(22, 163, 74, 0.15);
+  color: #16a34a;
+}
+
+.trip-plan-button {
+  padding: 0.5rem 0.9rem;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+.trip-plan-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.trip-plan-button-text {
+  background: none;
+  border: none;
+  color: #6b7280;
+  font-size: 0.85rem;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+}
